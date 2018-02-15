@@ -1,6 +1,6 @@
 %define name smeserver-manager-html
 %define version 0.1
-%define release 1
+%define release 2
 Summary: Plugin to enable IPSEC connections
 Name: %{name}
 Version: %{version}
@@ -20,6 +20,9 @@ AutoReqProv: no
 RPM with html templating for server-manager
 
 %changelog
+* Thu Feb 15 2018 John Crisp <jcrisp@safeandsoundit.co.uk> 0.1-2.sme
+- Update to latest AdminLTE theme
+
 * Mon Feb 12 2018 John Crisp <jcrisp@safeandsoundit.co.uk> 0.1-1.sme
 - Initial build
 
